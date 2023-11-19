@@ -1,0 +1,34 @@
+{
+  "parent": "alchemy:alchemy/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": {
+      "text": "Poison potion"
+    },
+    "description": {
+      "text": "Brew Poison potion"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "poison": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:poison"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "poison"
+    ]
+  ],
+    "rewards": {
+    "function": "alchemy:xp/poison"
+  }
+}

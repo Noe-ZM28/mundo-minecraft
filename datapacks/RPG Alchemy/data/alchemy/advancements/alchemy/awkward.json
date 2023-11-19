@@ -1,0 +1,34 @@
+{
+  "parent": "alchemy:alchemy/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": {
+      "text": "Awkward potion"
+    },
+    "description": {
+      "text": "Brew Awkward potion"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "awkward": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:awkward"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "awkward"
+    ]
+  ],
+    "rewards": {
+    "function": "alchemy:xp/awkward"
+  }
+}

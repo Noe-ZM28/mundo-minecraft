@@ -1,0 +1,34 @@
+{
+  "parent": "alchemy:alchemy/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": {
+      "text": "Turtle Master potion"
+    },
+    "description": {
+      "text": "Brew Turtle Master potion"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "turtle": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:turtle_master"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "turtle"
+    ]
+  ],
+    "rewards": {
+    "function": "alchemy:xp/turtle"
+  }
+}

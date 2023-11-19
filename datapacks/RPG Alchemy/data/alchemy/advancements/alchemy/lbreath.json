@@ -1,0 +1,34 @@
+{
+  "parent": "alchemy:alchemy/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": {
+      "text": "Long Water Breathing potion"
+    },
+    "description": {
+      "text": "Brew Long Water Breathing potion"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "lbreath": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_water_breathing"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "lbreath"
+    ]
+  ],
+    "rewards": {
+    "function": "alchemy:xp/lbreath"
+  }
+}

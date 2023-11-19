@@ -1,0 +1,34 @@
+{
+  "parent": "alchemy:alchemy/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": {
+      "text": "Weakness potion"
+    },
+    "description": {
+      "text": "Brew Weakness potion"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "weak": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:weakness"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "weak"
+    ]
+  ],
+    "rewards": {
+    "function": "alchemy:xp/weak"
+  }
+}

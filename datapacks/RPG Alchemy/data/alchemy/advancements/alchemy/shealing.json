@@ -1,0 +1,34 @@
+{
+  "parent": "alchemy:alchemy/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": {
+      "text": "Strong Healing potion"
+    },
+    "description": {
+      "text": "Brew Strong Healing potion"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "shealing": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_healing"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "shealing"
+    ]
+  ],
+    "rewards": {
+    "function": "alchemy:xp/shealing"
+  }
+}

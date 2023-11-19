@@ -1,0 +1,34 @@
+{
+  "parent": "alchemy:alchemy/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": {
+      "text": "Strong Regeneration potion"
+    },
+    "description": {
+      "text": "Brew Strong Regeneration potion"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "sregeneration": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_regeneration"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sregeneration"
+    ]
+  ],
+    "rewards": {
+    "function": "alchemy:xp/sregeneration"
+  }
+}

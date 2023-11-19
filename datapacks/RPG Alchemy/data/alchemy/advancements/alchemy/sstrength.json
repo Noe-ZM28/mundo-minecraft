@@ -1,0 +1,34 @@
+{
+  "parent": "alchemy:alchemy/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": {
+      "text": "Strong Strength potion"
+    },
+    "description": {
+      "text": "Brew Strong Strength potion"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "sstrength": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_strength"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sstrength"
+    ]
+  ],
+    "rewards": {
+    "function": "alchemy:xp/sstrength"
+  }
+}

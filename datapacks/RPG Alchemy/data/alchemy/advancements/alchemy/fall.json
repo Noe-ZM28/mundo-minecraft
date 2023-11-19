@@ -1,0 +1,34 @@
+{
+  "parent": "alchemy:alchemy/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": {
+      "text": "Slow Falling potion"
+    },
+    "description": {
+      "text": "Brew Slow Falling potion"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "fall": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:slow_falling"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fall"
+    ]
+  ],
+    "rewards": {
+    "function": "alchemy:xp/fall"
+  }
+}

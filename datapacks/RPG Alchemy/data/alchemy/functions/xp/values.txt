@@ -1,0 +1,18 @@
+
+water bottle = 5
+nether wart = 5
+gunpowder = 5
+redstone = 5
+glowstone = 5
+sugar = 5
+spider eye = 15
+rabbit foot = 15
+blaze powder = 15
+glistering melon = 15
+magma cream = 15
+pufferfish = 15
+golden carrot = 15
+turtle shell = 15
+fermented spider eye = 25
+phantom membrane = 25
+ghast tear = 25

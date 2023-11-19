@@ -1,0 +1,34 @@
+{
+  "parent": "alchemy:alchemy/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": {
+      "text": "Healing potion"
+    },
+    "description": {
+      "text": "Brew Healing potion"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "healing": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:healing"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "healing"
+    ]
+  ],
+    "rewards": {
+    "function": "alchemy:xp/healing"
+  }
+}

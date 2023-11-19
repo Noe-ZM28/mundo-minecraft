@@ -1,0 +1,34 @@
+{
+  "parent": "alchemy:alchemy/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": {
+      "text": "Long Fire Resistance potion"
+    },
+    "description": {
+      "text": "Brew Long Fire Resistance potion"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "lfire": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_fire_resistance"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "lfire"
+    ]
+  ],
+    "rewards": {
+    "function": "alchemy:xp/lfire"
+  }
+}

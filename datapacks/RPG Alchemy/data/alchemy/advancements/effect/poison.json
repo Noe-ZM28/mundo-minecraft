@@ -1,0 +1,31 @@
+{
+  "parent": "alchemy:effect/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": {
+      "text": "Poison potion"
+    },
+    "description": {
+      "text": "Drink Poison potion"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "potion": "minecraft:poison"
+        }
+      }
+    }
+  },
+    "rewards": {
+    "function": "alchemy:effect/poison"
+  }
+}

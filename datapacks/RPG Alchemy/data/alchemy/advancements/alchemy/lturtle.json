@@ -1,0 +1,34 @@
+{
+  "parent": "alchemy:alchemy/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": {
+      "text": "Long Turtle Master potion"
+    },
+    "description": {
+      "text": "Brew Long Turtle Master potion"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "lturtle": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_turtle_master"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "lturtle"
+    ]
+  ],
+    "rewards": {
+    "function": "alchemy:xp/lturtle"
+  }
+}

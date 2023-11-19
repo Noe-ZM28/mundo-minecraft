@@ -1,0 +1,34 @@
+{
+  "parent": "alchemy:alchemy/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": {
+      "text": "Night Vision potion"
+    },
+    "description": {
+      "text": "Brew Night Vision potion"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "night": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:night_vision"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "night"
+    ]
+  ],
+    "rewards": {
+    "function": "alchemy:xp/night"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": "Strong Leaping potion",
+    "description": "Drink Strong Leaping potion",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "alchemy:effect/root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "potion": "minecraft:strong_leaping"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "alchemy:effect/sleaping"
+  }
+}

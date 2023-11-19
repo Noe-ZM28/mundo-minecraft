@@ -1,0 +1,31 @@
+{
+  "parent": "alchemy:effect/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:potion"
+    },
+    "title": {
+      "text": "Strong Turtle Master potion"
+    },
+    "description": {
+      "text": "Drink Strong Turtle Master potion"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "potion": "minecraft:strong_turtle_master"
+        }
+      }
+    }
+  },
+    "rewards": {
+    "function": "alchemy:effect/sturtle"
+  }
+}
