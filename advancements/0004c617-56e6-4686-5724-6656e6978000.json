@@ -1,6 +1,7 @@
 {
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2023-11-24 21:59:06 -0600",
       "minecraft:mushroom_fields": "2023-01-04 18:39:15 -0600",
       "minecraft:deep_ocean": "2023-01-06 15:05:03 -0600",
       "minecraft:sunflower_plains": "2023-01-14 12:51:55 -0600",
@@ -10,19 +11,26 @@
       "minecraft:savanna_plateau": "2023-11-18 19:57:52 -0600",
       "minecraft:beach": "2023-01-04 19:57:14 -0600",
       "minecraft:dark_forest": "2023-01-14 12:49:31 -0600",
+      "minecraft:stony_peaks": "2023-11-24 21:47:10 -0600",
       "minecraft:sparse_jungle": "2023-01-18 20:26:34 -0600",
       "minecraft:lukewarm_ocean": "2023-01-04 18:51:25 -0600",
       "minecraft:river": "2023-01-04 19:57:44 -0600",
       "minecraft:stony_shore": "2023-01-06 15:03:43 -0600",
       "minecraft:swamp": "2023-01-18 19:55:27 -0600",
+      "minecraft:grove": "2023-11-24 22:37:37 -0600",
+      "minecraft:jagged_peaks": "2023-11-24 22:36:47 -0600",
+      "minecraft:cold_ocean": "2023-11-24 22:40:50 -0600",
       "minecraft:forest": "2023-01-04 18:36:58 -0600",
       "minecraft:lush_caves": "2023-01-16 17:08:03 -0600",
       "minecraft:desert": "2023-11-18 20:10:02 -0600",
       "minecraft:windswept_forest": "2023-01-19 16:07:33 -0600",
       "minecraft:ocean": "2023-01-04 18:40:46 -0600",
       "minecraft:jungle": "2023-01-18 20:12:35 -0600",
+      "minecraft:old_growth_spruce_taiga": "2023-11-24 22:37:34 -0600",
+      "minecraft:warm_ocean": "2023-11-20 17:57:27 -0600",
       "minecraft:deep_lukewarm_ocean": "2023-01-04 18:38:54 -0600",
       "minecraft:flower_forest": "2023-01-14 12:51:02 -0600",
+      "minecraft:frozen_peaks": "2023-11-24 21:58:26 -0600",
       "minecraft:old_growth_birch_forest": "2023-01-14 12:49:03 -0600",
       "minecraft:savanna": "2023-01-04 18:37:32 -0600",
       "minecraft:plains": "2023-01-04 18:32:15 -0600"
@@ -98,12 +106,6 @@
   "minecraft:recipes/combat/wooden_sword": {
     "criteria": {
       "has_stick": "2023-01-04 18:40:59 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/crossbow": {
-    "criteria": {
-      "has_iron_ingot": "2023-11-18 18:58:42 -0600"
     },
     "done": true
   },
@@ -260,12 +262,6 @@
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2023-01-04 18:43:50 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2023-11-18 16:35:47 -0600"
     },
     "done": true
   },
@@ -1515,12 +1511,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/glass": {
-    "criteria": {
-      "has_smelts_to_glass": "2023-11-18 16:35:46 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/brick": {
     "criteria": {
       "has_clay_ball": "2023-01-06 14:06:06 -0600"
@@ -1927,7 +1917,8 @@
     "criteria": {
       "minecraft:nether_wastes": "2023-01-06 20:04:40 -0600",
       "minecraft:soul_sand_valley": "2023-01-12 12:35:20 -0600",
-      "minecraft:warped_forest": "2023-01-06 19:51:37 -0600"
+      "minecraft:warped_forest": "2023-01-06 19:51:37 -0600",
+      "minecraft:basalt_deltas": "2023-11-25 21:44:48 -0600"
     },
     "done": false
   },
@@ -3953,33 +3944,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_sandstone_stairs_from_smooth_sandstone_stonecutting": {
+  "minecraft:recipes/building_blocks/glass": {
     "criteria": {
-      "has_smooth_sandstone": "2023-11-18 20:29:40 -0600"
+      "has_smelts_to_glass": "2023-11-18 16:35:46 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/lime_terracotta": {
+  "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "has_terracotta": "2023-11-18 20:29:49 -0600"
+      "unlock_right_away": "2023-11-18 16:35:47 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/sandstone_stairs": {
+  "minecraft:recipes/transportation/cherry_boat": {
     "criteria": {
-      "has_sandstone": "2023-11-18 20:29:40 -0600"
+      "in_water": "2023-11-18 16:45:55 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_gray_terracotta": {
+  "minecraft:recipes/transportation/bamboo_raft": {
     "criteria": {
-      "has_terracotta": "2023-11-18 20:29:49 -0600"
+      "in_water": "2023-11-18 16:45:55 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/sandstone_slab": {
+  "minecraft:recipes/building_blocks/bamboo_block": {
     "criteria": {
-      "has_sandstone": "2023-11-18 20:29:40 -0600"
+      "has_bamboo": "2023-11-18 17:08:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz": {
+    "criteria": {
+      "has_nether_quartz_ore": "2023-11-18 17:51:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz_from_blasting": {
+    "criteria": {
+      "has_nether_quartz_ore": "2023-11-18 17:51:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2023-11-18 18:58:42 -0600"
     },
     "done": true
   },
@@ -3989,9 +3998,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/white_terracotta": {
+  "minecraft:recipes/transportation/cherry_chest_boat": {
     "criteria": {
-      "has_terracotta": "2023-11-18 20:29:49 -0600"
+      "has_boat": "2023-11-18 19:35:46 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2023-11-18 20:29:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2023-11-18 20:29:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2023-11-18 20:29:40 -0600"
     },
     "done": true
   },
@@ -4013,12 +4040,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/orange_terracotta": {
-    "criteria": {
-      "has_terracotta": "2023-11-18 20:29:49 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/smooth_sandstone": {
     "criteria": {
       "has_sandstone": "2023-11-18 20:29:40 -0600"
@@ -4037,12 +4058,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/red_terracotta": {
-    "criteria": {
-      "has_terracotta": "2023-11-18 20:29:49 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2023-11-18 20:29:40 -0600"
@@ -4055,45 +4070,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/black_terracotta": {
-    "criteria": {
-      "has_terracotta": "2023-11-18 20:29:49 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2023-11-18 20:29:40 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/quartz": {
-    "criteria": {
-      "has_nether_quartz_ore": "2023-11-18 17:51:41 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/pink_terracotta": {
-    "criteria": {
-      "has_terracotta": "2023-11-18 20:29:49 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/magenta_terracotta": {
-    "criteria": {
-      "has_terracotta": "2023-11-18 20:29:49 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2023-11-18 16:45:55 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cyan_terracotta": {
-    "criteria": {
-      "has_terracotta": "2023-11-18 20:29:49 -0600"
     },
     "done": true
   },
@@ -4109,6 +4088,66 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2023-11-18 20:29:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-11-18 20:29:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-11-18 20:29:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-11-18 20:29:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-11-18 20:29:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-11-18 20:29:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-11-18 20:29:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-11-18 20:29:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-11-18 20:29:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_terracotta": {
+    "criteria": {
+      "has_terracotta": "2023-11-18 20:29:49 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blue_terracotta": {
     "criteria": {
       "has_terracotta": "2023-11-18 20:29:49 -0600"
@@ -4118,18 +4157,6 @@
   "minecraft:recipes/building_blocks/light_blue_terracotta": {
     "criteria": {
       "has_terracotta": "2023-11-18 20:29:49 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/bamboo_raft": {
-    "criteria": {
-      "in_water": "2023-11-18 16:45:55 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/sandstone_wall": {
-    "criteria": {
-      "has_sandstone": "2023-11-18 20:29:40 -0600"
     },
     "done": true
   },
@@ -4151,18 +4178,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/bamboo_block": {
-    "criteria": {
-      "has_bamboo": "2023-11-18 17:08:04 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/cherry_chest_boat": {
-    "criteria": {
-      "has_boat": "2023-11-18 19:35:46 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/green_terracotta": {
     "criteria": {
       "has_terracotta": "2023-11-18 20:29:49 -0600"
@@ -4175,9 +4190,57 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/quartz_from_blasting": {
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
     "criteria": {
-      "has_nether_quartz_ore": "2023-11-18 17:51:41 -0600"
+      "has_coast_armor_trim_smithing_template": "2023-11-20 18:02:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2023-11-20 18:02:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2023-11-20 18:36:47 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2023-11-21 13:32:51 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_nether_gold_ore": {
+    "criteria": {
+      "has_nether_gold_ore": "2023-11-21 13:32:51 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2023-11-21 14:32:22 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2023-11-21 14:32:22 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2023-11-25 20:56:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2023-11-25 21:50:36 -0600"
     },
     "done": true
   },
